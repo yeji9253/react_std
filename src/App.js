@@ -5,6 +5,11 @@ import Article from './components/Article';
 import './App.css';
 
 class App extends Component {
+  
+  // 1. render() 함수보다 constructor()가 먼저 호출되어, 컴포넌트 내부에서 사용할 state값들을 먼저 초기화 해준다
+  // 2. state/props 값이 변경될 때마다 render() 함수가 호출 된다
+  // 3. 컴포넌트 정의 시, 첫문자는 항상 대문자로 해야한다 ( ex. <subject> -> <Subject> )
+  // 4. react는 유사 자바스크립트 언어로, JS가 아닌 JSX이다
   constructor(props) {
     super(props);
     this.state = {
