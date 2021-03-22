@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Article extends Component {
+class ReadArticle extends Component {
     render() {
       return (
         <article>
@@ -11,4 +11,4 @@ class Article extends Component {
     }
 }
 
-export default Article;
+export default ReadArticle;
